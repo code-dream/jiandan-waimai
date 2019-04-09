@@ -6,7 +6,7 @@
 
 ### 项目展示图
 
-<img src='./image/登录.gif' style='width: 10%'> <img src='./image/修改个人信息.gif' style='width: 10%'> <img src='./image/商品浏览1.gif' style='width: 10%'>
+<img src='./image/登录.gif' style='width: 50px'> <img src='./image/修改个人信息.gif' style='width: 50px'> <img src='./image/商品浏览1.gif' style='width: 50px>
 
 ### 项目运行
 
