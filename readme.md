@@ -1,15 +1,32 @@
-# 简介
+### 项目简单介绍
 
-## 1. 项目描述
+---
 
-1. 此项目为一个前后端分离的外卖 Web App (SPA) 项目
-2. 使用了 Vue 全家桶+ES6+Webpack 等前端最新技术 
-3. 包括商家, 商品, 购物车, 用户等多个功能子模块 
-4. 采用模块化、组件化、工程化的模式开发 
+模仿饿了么外卖，使用vue-cli3脚手架，前端使用vue+vuex+vueRouter+axios，为了模拟真正的前后端分离，做到真实的数据交互，使用express搭建了后端，数据库使用noSQL类型的mongodb方便存取数据，同时利用mock拦截部分请求返回数据；功能设计登录、注册、浏览商品、购物车、个人信息修改等 
 
-## 2. 你能从此项目中学到什么? 
+### 项目展示图
 
-### 2.1 项目开发流程及开发方法 
+<img src='./image/登录.gif' style='width: 33.3%'><img src='./image/修改个人信息.gif' style='width: 33.3%'><img src='./image/商品浏览1.gif' style='width: 33.3%'>
+
+### 项目运行
+
+1. 先在命令行中进入`waimai-server`文件，然后运行以下命令
+
+   ```node
+   npm install  // 下载package.json中的所有模块
+   npm start   // 运行项目，当出现‘连接数据库成功’说明成功启动服务器
+   ```
+
+2. 然后命令行中进入`waimai-client`文件，运行以下命令
+
+   ```node
+   npm install
+   npm run serve
+   ```
+
+### 从中收获如下
+
+##### 项目开发流程及开发方法 
 
 1. 熟悉一个项目的开发流程
 2. 学会组件化、模块化、工程化的开发模式 
@@ -18,34 +35,15 @@
 5. 学会 ES6+eslint 的开发方式 
 6. 掌握一些项目优化技巧 
 
-### 2.2 Vue 插件或第三方库
+##### 以下Vue 插件及第三方插件库
 
 1. 学会使用 vue-router 开发单页应用 
-2. 学会使用 axios/vue-resource 与后端进行数据交互
+2. 学会使用 axios 与后端进行数据交互
 3. 学会使用 vuex 管理应用组件状态
-4. 学会使用 better-scroll/vue-scroller 实现页面滑动效果
-5. 学会使用 mint-ui 组件库构建界面
-6. 学会使用 vue-lazyload 实现图片惰加载
-7. 学会使用 mockjs 模拟后台数据接口  
+4. 学会使用 vue-pull-to 实现轮播图下效果
+5. 学会使用 better-scroll/vue-scroller 实现页面滑动效果
+6. 学会使用 mockjs 模拟后台数据接口  
 
-## 3. API接口文档
+### api数据接口文档
 
 [项目API接口文档](https://github.com/W-Qing/Vue-MintShop/blob/master/mintshop-server/API.md)
-
-## 4. 项目开发
-
-[完整项目开发流程说明文档](https://github.com/W-Qing/Vue-MintShop/blob/master/%E9%A1%B9%E7%9B%AE%E5%BC%80%E5%8F%91%E6%B5%81%E7%A8%8B.md)
-
-## 5. 运行项目
-
-**mintshop-client文件夹：**
-
-1. `npm install`
-2. `npm run dev`
-
-**mintshop-server文件夹：**
-
-1. `npm install`
-2. `npm start`
-
-## 6. App演示截图
