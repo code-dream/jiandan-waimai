@@ -44,6 +44,6 @@
 5. 学会使用 better-scroll/vue-scroller 实现页面滑动效果
 6. 学会使用 mockjs 模拟后台数据接口  
 
-### api数据接口文档
+### api数据接口wendang
 
 [项目API接口文档](https://github.com/code-dream/jiandan-waimai/blob/master/waimai-server/API.md)
