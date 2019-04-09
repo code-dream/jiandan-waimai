@@ -6,7 +6,7 @@
 
 ### 项目展示图
 
-<img src='./image/登录.gif' style='width: 33.3%'><img src='./image/修改个人信息.gif' style='width: 33.3%'><img src='./image/商品浏览1.gif' style='width: 33.3%'>
+<img src='./image/登录.gif'/> <img src='./image/修改个人信息.gif'/> <img src='./image/商品浏览1.gif'/>
 
 ### 项目运行
 
@@ -46,4 +46,4 @@
 
 ### api数据接口文档
 
-[项目API接口文档](https://github.com/code-dream/jiandan-waimai/blob/master/waimai-server/API.md)
+[项目API接口文档](https://github.com/W-Qing/Vue-MintShop/blob/master/mintshop-server/API.md)
